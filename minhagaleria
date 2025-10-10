@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Galeria</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px; background-color: #eaf6f6; color: #333;">
+
+  <h1 style="text-align: center; color: #00695c;">Minha Galeria</h1>
+
+  <!-- Seção de Áudio -->
+  <section style="margin-bottom: 30px; padding: 15px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <h2 style="color: #004d40;">Áudio</h2>
+    <audio controls style="width: 100%;">
+      <source src="musica.mp3" type="audio/mpeg">
+      <source src="musica.ogg" type="audio/ogg">
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <br><br>
+    <a href="musica.mp3" download style="text-decoration: none; color: #00796b; font-weight: bold;">🎵 Baixar áudio</a>
+  </section>
+
+  <!-- Seção de Vídeo -->
+  <section style="margin-bottom: 30px; padding: 15px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <h2 style="color: #004d40;">Vídeo do YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7I_u_McAs_Q"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+    </iframe>
+    <br><br>
+    <a href="https://youtu.be/7I_u_McAs_Q" target="_blank" style="text-decoration: none; color: #00796b; font-weight: bold;">▶ Assistir no YouTube</a>
+  </section>
+
+  <!-- Seção de Imagens -->
+  <section style="padding: 15px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <h2 style="color: #004d40;">Galeria de Imagens</h2>
+
+    <figure style="display: inline-block; margin: 10px; text-align: center;">
+      <img src="imagem1.webp" alt="Foto 1 da galeria" width="300" style="border-radius: 5px; border: 3px solid #80cbc4;">
+      <figcaption style="color: #00796b;">Paisagem ao pôr do sol</figcaption>
+    </figure>
+
+    <figure style="display: inline-block; margin: 10px; text-align: center;">
+      <img src="imagem2.webp" alt="Foto 2 da galeria" width="300" style="border-radius: 5px; border: 3px solid #80cbc4;">
+      <figcaption style="color: #00796b;">Flores coloridas</figcaption>
+    </figure>
+
+    <figure style="display: inline-block; margin: 10px; text-align: center;">
+      <img src="imagem3.webp" alt="Foto 3 da galeria" width="300" style="border-radius: 5px; border: 3px solid #80cbc4;">
+      <figcaption style="color: #00796b;">Noite estrelada</figcaption>
+    </figure>
+  </section>
+</body>
+</html>
