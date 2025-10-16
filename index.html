@@ -1,114 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minha Galeria</title>
-  <style>
-    /* Estilo geral da página */
-    body {
-      font-family: "Poppins", Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background: linear-gradient(135deg, #ffe6f0, #fff);
-      color: #333;
-    }
+<section>
+  <h2>Áudio</h2>
+  <audio controls>
+    <source src="musica (1)" type="audio/mpeg">
+    <source src="musica.ogg" type="audio/ogg">
+    Seu navegador não suporta o elemento de áudio.
+  </audio>
+  <br><br>
+  <a href="musica (1)" download>Baixar áudio</a>
+</section>
 
-    h1 {
-      text-align: center;
-      color: #d63384;
-      margin-bottom: 40px;
-    }
-
-    h2 {
-      color: #2c3e50;
-      border-left: 4px solid #d63384;
-      padding-left: 8px;
-    }
-
-    section {
-      background-color: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      margin-bottom: 30px;
-      transition: transform 0.2s ease;
-    }
-
-    section:hover {
-      transform: scale(1.01);
-    }
-
-    a {
-      text-decoration: none;
-      color: #d63384;
-      font-weight: 500;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    /* Player de áudio */
-    audio {
-      margin-top: 10px;
-      border-radius: 8px;
-      width: 100%;
-      max-width: 400px;
-    }
-
-    /* Vídeo responsivo */
-    iframe {
-      max-width: 100%;
-      width: 560px;
-      height: 315px;
-      border-radius: 10px;
-      border: 1px solid #ccc;
-      display: block;
-      margin: 10px auto;
-    }
-
-    /* Galeria */
-    .galeria {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      text-align: center;
-    }
-
-    figure {
-      background-color: #fafafa;
-      padding: 10px;
-      border-radius: 10px;
-      transition: transform 0.3s ease;
-    }
-
-    figure:hover {
-      transform: scale(1.05);
-    }
-
-    img {
-      width: 300px;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    figcaption {
-      margin-top: 8px;
-      font-style: italic;
-      color: #555;
-    }
-  </style>
-</head>
-
-<body>
-  <h1>Minha Galeria</h1>
-
-  <section>
-    <h2>Áudio</h2>
-   <audio controls>
+<audio controls>
   <source src="musica.mp3" type="audio/mpeg">
   <source src="musica.ogg" type="audio/ogg">
   Seu navegador não suporta o elemento de áudio.
@@ -116,35 +17,40 @@
 <br><br>
 <a href="musica.mp3" download>Baixar áudio</a>
 
-  <section>
-    <h2>Vídeo do YouTube</h2>
-    <iframe src="https://www.youtube.com/embed/7I_u_McAs_Q"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-    <br>
-    <a href="https://youtu.be/7I_u_McAs_Q" target="_blank">Assistir no YouTube</a>
-  </section>
+<section>
+  <h2>Vídeo do YouTube</h2>
+  <iframe src="https://www.youtube.com/embed/7I_u_McAs_Q"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+  <br>
+  <a href="https://youtu.be/7I_u_McAs_Q" target="_blank">Assistir no YouTube</a>
+</section>
 
-  <section>
-    <h2>Galeria de Imagens</h2>
-    <div class="galeria">
-      <figure>
-        <img src="imagem1.webp" alt="Foto 1 da galeria">
-        <figcaption>Paisagem ao pôr do sol</figcaption>
-      </figure>
+<section>
+  <h2>Galeria de Imagens</h2>
+  <div class="galeria">
+    <figure>
+      <img src="imagem1.webp" alt="Foto 1 da galeria">
+      <figcaption>Paisagem ao pôr do sol</figcaption>
+    </figure>
 
-      <figure>
-        <img src="imagem2.webp" alt="Foto 2 da galeria">
-        <figcaption>Flores coloridas</figcaption>
-      </figure>
+    <figure>
+      <img src="imagem2.webp" alt="Foto 2 da galeria">
+      <figcaption>Flores coloridas</figcaption>
+    </figure>
 
-      <figure>
-        <img src="imagem3.webp" alt="Foto 3 da galeria">
-        <figcaption>Noite estrelada</figcaption>
-      </figure>
-    </div>
-  </section>
+    <figure>
+      <img src="imagem3.webp" alt="Foto 3 da galeria">
+      <figcaption>Noite estrelada</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer style="text-align: center; padding: 20px; background-color: #f8f8f8; margin-top: 30px;">
+  <p>&copy; 2025 Todos os direitos reservados a <strong>Jhenifer Paulino Da Costa</strong>.</p>
+</footer>
+
 </body>
 </html>
